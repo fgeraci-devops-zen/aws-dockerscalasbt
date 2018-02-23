@@ -67,9 +67,6 @@ RUN wget "https://bootstrap.pypa.io/get-pip.py" -O /tmp/get-pip.py \
     && python /tmp/get-pip.py \
     && pip install awscli==1.11.157 \
     && rm -fr /var/lib/apt/lists/* /tmp/* /var/tmp/*
-    
-    # Scala expects this file
-RUN touch /usr/lib/jvm/java-8-openjdk-amd64/release
 
 # Install Scala
 
