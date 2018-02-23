@@ -72,7 +72,7 @@ https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/do
     && docker-compose version
 
 # Install Java
-apt-get install -y default-jdk
+RUN apt-get install -y default-jdk
 
 # Install dependencies by all python images equivalent to buildpack-deps:jessie on the 
 # public repos.
