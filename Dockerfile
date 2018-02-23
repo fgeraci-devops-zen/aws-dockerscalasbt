@@ -7,8 +7,8 @@ ENV DOCKER_BUCKET="download.docker.com" \
     DOCKER_SHA256="a9e90a73c3cdfbf238f148e1ec0eaff5eb181f92f35bdd938fd7dab18e1c4647" \
     DIND_COMMIT="3b5fac462d21ca164b3778647420016315289034" \
     DOCKER_COMPOSE_VERSION="1.16.1"
-    ENV SCALA_VERSION 2.12.3
-    ENV SBT_VERSION 1.0.1
+    SCALA_VERSION 2.12.3
+    SBT_VERSION 1.0.1
 
 # Building git from source code:
 #   Ubuntu's default git package is built with broken gnutls. Rebuild git with openssl.
